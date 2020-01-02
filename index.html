@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Licardo - Albert Abdilim</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="I am Albert Abdilim, a medical student from HUST.">
+  <meta name="author" content="Albert Abdilim">
+  <meta property="og:url" content="http://licardo.cn/">
+  <meta property="og:image" content="http://licardo.cn/">
+  <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/MrLicardo/resources@master/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three.js@0.73.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/MrLicardo/resources@master/script.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <canvas id="stars"></canvas>
+    <canvas id="yahia"></canvas>
+    <div class="container">
+      <div class="template color-yellow" data-template="home">
+        <main>
+          <h1>
+            <span>I am <mark>Albert Abdilim</mark></span>
+            <span>also known as <mark>Licardo</mark></span>
+            <span>a medical student from HUST</span>
+          </h1>
+          <div class="p">
+            <span>
+              <a href="mailto: albert.abdilim@foxmail.com" class="__cf_email__">albert.abdilim@foxmail.com</a>
+            </span>
+          </div>
+          <div class="links">
+            <a class="link color-green" href="https://blog.licardo.cn" target="_blank">
+              Go to my blog
+            </a>
+            <a class="link color-red" href="#projects">
+              Latest projects
+            </a>
+            <a class="link color-yellow" href="#bucket">
+              View my buckets
+            </a>
+            <a class="link color-blue" href="#about">
+              About me
+            </a>
+          </div>
+        </main>
+        <footer>
+          <div class="links">
+            <a class="link small alt" href="https://www.facebook.com/profile.php?id=100006320110346"
+              title="Facebook (@AlbertAbdilim)" target="_blank">
+              Facebook
+            </a>
+            <a class="link small alt" href="https://twitter.com/AlbertAbdilim" title="Twitter (@AlbertAbdilim)"
+              target="_blank">
+              Twitter
+            </a>
+            <a class="link small alt" href="https://github.com/L1cardo" title="GitHub (@Licardo)" target="_blank">
+              GitHub
+            </a>
+            <a class="link small alt" href="https://www.weibo.com/1935602951" title="Weibo (@Albert_Abdilim)"
+              target="_blank">
+              Weibo
+            </a>
+          </div>
+        </footer>
+      </div>
+      <div class="template color-yellow" data-template="bucket">
+        <main>
+          <div class="h1">
+            <span></span>
+            <span>Things to do before <mark>2020</mark></span>
+          </div>
+          <div class="small">
+            <span>What’s up next?</span>
+          </div>
+          <div class="p">
+            <span>Have the courage to tell the girl I like that I like her</span>
+          </div>
+          <div class="links">
+            <a class="link router" href="#bucket/all">
+              View all the bucket list
+            </a>
+          </div>
+        </main>
+        <footer>
+          <div class="links">
+            <a class="link router small alt" href="#">
+              Back to home
+            </a>
+          </div>
+        </footer>
+      </div>
+      <div class="template color-yellow" data-template="bucketAll">
+        <main>
+          <div class="h1">
+            <span>She’s at the</span>
+            <span>top of my <mark>bucket list</mark></span>
+          </div>
+          <div class="small">
+            <span>You remember this tune, don't you? And by the way,</span>
+            <span>How can you find sleep at night after you stole my heart?</span>
+          </div>
+          <ul class="list blocks">
+            <li class="next"><span>Up Next.</span><span>Have the courage to tell the girl I like that I like her</span>
+            </li>
+            <li class="pending"><span>02.</span><span>Record a documentary about some part of my life</span></li>
+            <li class="progress"><span>In progress..</span><span>Get my undergraduate degree</span></li>
+            <li class="archived"><span>Aug, 2019.</span><span>Visit the Hogwarts School of Witchcraft and
+                Wizardry</span></li>
+            <!-- <li class="archived">
+              <a href="https://www.facebook.com/events/125212944878228/permalink/125215144878008/" target="_blank">
+                <span>Sep 20, 2017.</span>
+                <span>Watch Harry Potter’s movies all at once without sleeping</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                  </path>
+                </svg>
+              </a>
+            </li> -->
+            <li class="pending"><span>05.</span><span>Become a billionaire</span></li>
+          </ul>
+          <div class="links">
+            <a class="link router" href="#">
+              Back to home
+            </a>
+          </div>
+        </main>
+        <footer>
+      </div>
+      <div class="template color-red" data-template="projectsAll">
+        <main>
+          <div class="h1">
+            <span></span>
+            <span><mark>Latest projects</mark></span>
+          </div>
+          <div class="small">
+            <span>These are some projects I'm proud of creating,</span>
+            <span>contributing, or being part of.</span>
+          </div>
+          <ul class="list blocks">
+            <li class="next">
+              <span>Up Next.</span><span>uPic for iOS - Coming soon</span>
+            </li>
+            <li class="listItem">
+              <a href="https://github.com/L1cardo/ClockBar" target="_blank">
+                <span>Nov 13, 2019.</span><span>ClockBar - Clock, right on the Touch Bar</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="listItem">
+              <a href="https://github.com/L1cardo/DarkLight" target="_blank">
+                <span>Oct 31, 2019.</span><span>DarkLight - Switch between Dark and Light mode with an ease</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="listItem">
+              <a href="https://github.com/gee1k/uPic" target="_blank">
+                <span>Oct 20, 2019.</span><span>uPic - A native, powerful, beautiful and simple picture and file upload
+                  tool for macOS</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="listItem">
+              <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">
+                <span>Sep 04, 2019.</span><span>Matery - A beautiful hexo blog theme</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="listItem">
+              <a href="https://github.com/pigigaldi/Pock" target="_blank">
+                <span>Aug 04, 2019.</span><span>Pock - Display macOS Dock in Touch Bar</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li class="listItem">
+              <a href="https://blog.licardo.cn" target="_blank">
+                <span>Jun 28, 2019.</span><span>Personal blog</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="links">
+            <a class="link router" href="#">
+              Back to home
+            </a>
+          </div>
+        </main>
+      </div>
+      <div class="template color-blue" data-template="aboutAll">
+        <main>
+          <div class="h1">
+            <span></span>
+            <span><mark>About me</mark></span>
+          </div>
+          <div class="small">
+            <span>Here is where I write about my breakups, about my</span>
+            <span>experiences, and about my failures.</span>
+          </div>
+          <ul class="list blocks">
+            <li class="listItem">
+              <div class="p">
+                <p>I am <mark>Albert Abdilim</mark>, also known as Licardo.</p>
+                <p>I am an Uyghur from a small city of Xinjiang, China.</p>
+                <p>I now am a <mark>medical student</mark> in HUST.</p>
+                <p>I like programing!</p>
+                <a href="mailto: albert.abdilim@foxmail.com" class="__cf_email__">emali: albert.abdilim@foxmail.com</a>
+              </div>
+            </li>
+          </ul>
+          <div class="links">
+            <a class="link router" href="#">
+              Back to home
+            </a>
+          </div>
+        </main>
+      </div>
+      <div class="template color-grayscale" data-template="notFound">
+        <main>
+          <div class="h1">
+            <span>The page you’re</span>
+            <span>looking for <mark>doesn’t exist</mark>..</span>
+          </div>
+          <div class="p">
+            <span>We’ll be getting back home within <time>5</time> seconds.</span>
+          </div>
+          <div class="links">
+            <a class="link router" href="#" data-callback="notFoundCallback">
+              Back to home now
+            </a>
+          </div>
+        </main>
+      </div>
+      <div class="loading" id="identity" title="Menu">
+        <div><a class="router" href="#about"><span>About me</span></a></div>
+        <div><a class="router" href="#bucket"><span>Bucket list</span></a></div>
+        <div><a class="router" href="#projects"><span>Latest projects</span></a></div>
+      </div>
+      <a class="loading router" id="signature" href="#" style="width: 150px">Albert Abdilim</a>
+      <a class="loading" id="burger" href="#" title="Menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>
