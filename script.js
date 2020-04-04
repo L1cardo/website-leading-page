@@ -4761,7 +4761,7 @@ var getImageData = function (e) {
     Yahia = {
         load: function (e) {
             var t;
-            "home" == e ? t = "home.png" : "bucket" == e ? t = "home.png" : "projectsAll" == e ? t = "home.png" : "aboutAll" == e ? t = "home.png" : "notFound" == e && (t = "notFound.png");
+            "home" == e ? t = "https://cdn.jsdelivr.net/gh/L1cardo/website-leading-page@master/home.png" : "bucket" == e ? t = "https://cdn.jsdelivr.net/gh/L1cardo/website-leading-page@master/home.png" : "projectsAll" == e ? t = "https://cdn.jsdelivr.net/gh/L1cardo/website-leading-page@master/home.png" : "aboutAll" == e ? t = "https://cdn.jsdelivr.net/gh/L1cardo/website-leading-page@master/home.png" : "notFound" == e && (t = "notFound.png");
             var n = document.createElement("img");
             n.onload = function () {
                 init(n)
