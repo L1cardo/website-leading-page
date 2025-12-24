@@ -5462,6 +5462,13 @@ form .small .status > *:nth-child(2),
   animation-delay: 0.468805130482791s;
 }
 
+.template[data-template="home"] footer .links > *:nth-child(5) {
+  -webkit-animation-duration: 1.216836097039821s;
+  animation-duration: 1.216836097039821s;
+  -webkit-animation-delay: 0.516836097039821s;
+  animation-delay: 0.516836097039821s;
+}
+
 @-moz-keyframes lineNum10 {
   0% {
     -ms-filter: "alpha(opacity=0)";
