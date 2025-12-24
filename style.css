@@ -4184,7 +4184,7 @@ textarea {
   width: 96px;
   height: 28px;
   margin-left: -48px;
-  background-image: url("signature.png");
+  /* background-image: url("signature.png"); */
   background-size: 96px;
 }
 
